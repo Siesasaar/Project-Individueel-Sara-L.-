@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <!-- Hier halen we onze eigen stylesheet op -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo"><img src="images/logo mobiele website.png" alt="logo"></a>
+        <h1>Streetwhere</h1>
+
+        <div class="container">
+            <div class="search_wrap">
+                <div class="search_box">
+                    <input type="text" class="input" placeholder="Search...">
+                    <div class="btn btn_common">
+                        <i class="fas fa-search"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <h2>Profile</h2>
+        <div class="container">
+            <div class="row gutters">
+                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="account-settings">
+                                <div class="user-profile">
+                                    <div class="user-avatar">
+                                    </div>
+                                    <h5 class="user-name">Rosanna S.</h5>
+                                    <h6 class="user-email">rosanna@mail.com</h6>
+                                </div>
+                                <div class="about">
+                                    <h5 class=",b-2 text-primary">About</h5>
+                                    <p>Hi, my name is Rosanna. I study at AMFI as Fashion Design student. I will live in
+                                        Amsterdam for 6 months.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="row gutters">
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                    <h6 class="mb-3 text-primary">Personal Details</h6>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                    <div class="form-group">
+                                        <label for="fullname">Full Name</label>
+                                        <input type="text" class="form-control" id="fullName"
+                                            placeholder="Enter full name">
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12"></div>
+                                <div class="form-group">
+                                    <label for="eMail">Email</label>
+                                    <input type="email" class="form-control" id="phone"
+                                        placeholder="Enter phone number">
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                <div class="form-group">
+                                    <label for="website">Website URL</label>
+                                    <input type="url" class="form-control" id="website" placeholder="Website url">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row gutters">
+                            <div class="col-xd-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                <h6 class="mb-3 text-primary">Adress</h6>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                <div class="form-group">
+                                    <label for="Street">Street</label>
+                                    <input type="name" class="form-control" id="street" placeholder="Enter Street">
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                <div class="form-group">
+                                    <label for="City">City</label>
+                                    <input type="name" class="form-control" id="City" placeholder="Enter City">
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                <div class="form-group">
+                                    <label for="State">State</label>
+                                    <input type="text" class="form-control" id="State" placeholder="Enter State">
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                <div class="form-group">
+                                    <label for="Zip">Zip Code</label>
+                                    <input type="text" class="form-control" id="Zip" placeholder="Zip Code">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row gutters">
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                <div class="text-right">
+                                    <button type="button" id="submit" name="submit"
+                                        class="btn btn-secondary">Cancel</button>
+                                    <button type="button" id="submit" name="submit"
+                                        class="btn btn-secondary">Update</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bron: https://www.bootdey.com/snippets/view/dark-profile-settings#css -->
+    </main>
+
+    <footer>
+        <nav class="navbar">
+            <a href="./index.html" class="bloc-icon">
+                <img src="images/home fill out.png" alt="Home">
+            </a>
+            <a href="./liked.html" class="bloc-icon">
+                <img src="images/hart fill out.png" alt="Liked">
+            </a>
+            <a href="./challenge.html" class="bloc-icon">
+                <img src="images/homebuttom basic.png" alt="Challenge">
+            </a>
+            <a href="./chat.html" class="bloc-icon">
+                <img src="images/chat fill out.png" alt="Chat">
+            </a>
+            <a href="./profile.html" class="bloc-icon">
+                <img src="images/profiel fill.png" alt="Profile">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
